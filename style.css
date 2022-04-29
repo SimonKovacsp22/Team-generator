@@ -1,0 +1,82 @@
+.title {
+    text-align: center;
+}
+
+.app-section {
+   
+    gap: 5vh;
+    
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.control-section {
+    width: 55vw;
+    gap: 80px;
+    align-items: center;
+    
+}
+
+.app-section-left {
+    width: 30vw;
+    margin-left: 10%;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.number-of-teams {
+    width: 5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-and-buttons {
+    gap: 10px;
+}
+
+#members-section {
+    width: 300px;
+    height: 400px;
+    border-style: solid;
+}
+
+.number-of-teams button {
+    height: 25px;
+    width: 25px;
+}
+
+.app-section-right {
+    width: 30vw;
+}
+
+.app-section-right h2 {
+    margin-top: 8px;
+    margin-left: 100px;
+    margin-bottom: 14px;
+}
+
+.teams-section {
+    display:flex ;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.btns-bottom {
+    align-self: center;
+}
+
+#add-button {
+    position: absolute;
+    left: 360px;
+}
+
+
+

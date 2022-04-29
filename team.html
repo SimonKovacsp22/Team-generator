@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="normalize.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Team Generator</h1>
+    </div>
+    <div class="app-section display-flex">
+        <div class="app-section-left display-flex">
+            <div class="control-section display-flex">
+                <div class="display-flex">
+                    <input type="text" placeholder="Name"/>
+                    <button id="add-button">Add</button>
+                </div>
+                
+                <div class="display-flex number-of-teams" >
+                    <button id="minus-btn">-</button>
+                    <p id="number-of-teams-p">0</p>
+                    <button id="plus-btn">+</button>
+                </div>
+            </div>
+            <div class="list-and-buttons display-flex flex-direction-column">
+              <div id="members-section">
+                <ol id="members-list">
+
+                </ol>
+
+              </div>
+              <div class="btns-bottom"> 
+                <button>Assign Member</button>
+                <button>Reset</button>
+             </div>
+            </div>
+            
+        </div>
+        <div class="app-section-right">
+            <h2>Teams</h2>
+            <div class="teams-section">
+                
+            </div>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="team.js"></script> 
+</body>
+</html>
